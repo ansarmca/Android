@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         Log.d("lifecycle","onStop invoked");
     }
+    protected void onRestart() {
+        super.onRestart();
+        Log.d("lifecycle","onRestart invoked");
+    }
     protected void onDestroy() {
         super.onDestroy();
         Log.d("lifecycle","onDestroy invoked");
